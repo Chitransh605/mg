@@ -29,7 +29,7 @@ y = np.abs(x)**(2/3) + 0.9 * np.sin(k*x) * np.sqrt(3-x**2)
 # Plot
 fig, ax = plt.subplots(figsize=(10, 5))
 
-ax.plot(x, y, linewidth=2, label=f"k = {k:.1f}")
+ax.plot(x, y, color="red", linewidth=2, label=f"k = {k:.1f}")
 
 ax.set_xlabel("x")
 ax.set_ylabel("y")
